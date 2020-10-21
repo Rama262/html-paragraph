@@ -1,10 +1,21 @@
 <html>
     <head>
         <title>Heading</title>
+        <script>
+            function show(){
+               var hd1=document.getElementById("head1")
+               hd1.innerHTML="good afternoon";
+               hd1.style.color="blue";
+               hd1.style.fontsize="18px";
+               hd1.className="headings"
+            }
+            </script>
+        </script>
     </head>
     <body>
         <h3>HI</h3>
         <p>good morning</p>
-        <h4>good night</h4>
+        <h4 id="head1">good night</h4>
+        <button  onclick="show()">submit</button>
     </body>
 </html>
